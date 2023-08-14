@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 31,
     "active_layer_preset": "All Layers",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -76,25 +76,25 @@
     "files": [
       {
         "name": "PicoTorch.kicad_sch",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
+          "maximized": true,
           "pos_x": 2218,
-          "pos_y": 34,
+          "pos_y": 33,
           "size_x": 1212,
           "size_y": 1396
         }
       },
       {
         "name": "PicoTorch.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": false,
-          "pos_x": 1867,
+          "pos_x": 10,
           "pos_y": 34,
-          "size_x": 1563,
+          "size_x": 3420,
           "size_y": 1396
         }
       }
