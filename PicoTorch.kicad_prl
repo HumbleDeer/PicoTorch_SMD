@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 31,
-    "active_layer_preset": "All Layers",
+    "active_layer": 42,
+    "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -65,7 +65,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "fffffcf_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
@@ -75,19 +75,19 @@
   "project": {
     "files": [
       {
-        "name": "PicoTorch.kicad_sch",
+        "name": "PicoTorch.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
-          "maximized": true,
-          "pos_x": 2218,
-          "pos_y": 33,
-          "size_x": 1212,
+          "maximized": false,
+          "pos_x": 1725,
+          "pos_y": 34,
+          "size_x": 1705,
           "size_y": 1396
         }
       },
       {
-        "name": "PicoTorch.kicad_pcb",
+        "name": "PicoTorch.kicad_sch",
         "open": false,
         "window": {
           "display": 0,

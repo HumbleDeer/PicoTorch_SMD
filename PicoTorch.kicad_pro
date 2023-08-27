@@ -1,6 +1,64 @@
 {
   "board": {
-    "3dviewports": [],
+    "3dviewports": [
+      {
+        "name": "Back",
+        "ww": 1.0,
+        "wx": 8.036202430725098,
+        "wy": 6.529659271240234,
+        "wz": -15.999995231628418,
+        "xw": 0.0,
+        "xx": -1.0,
+        "xy": 0.0,
+        "xz": -6.278329465203569e-07,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": 1.0,
+        "yz": 0.0,
+        "zw": 0.0,
+        "zx": 6.278329465203569e-07,
+        "zy": 0.0,
+        "zz": -1.0
+      },
+      {
+        "name": "Front",
+        "ww": 1.0,
+        "wx": -8.036202430725098,
+        "wy": 6.529659271240234,
+        "wz": -16.0,
+        "xw": 0.0,
+        "xx": 1.0,
+        "xy": 0.0,
+        "xz": 0.0,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": 1.0,
+        "yz": 0.0,
+        "zw": 0.0,
+        "zx": 0.0,
+        "zy": 0.0,
+        "zz": 1.0
+      },
+      {
+        "name": "Showoff",
+        "ww": 1.0,
+        "wx": -4.660511016845703,
+        "wy": 8.808502197265625,
+        "wz": -18.81194305419922,
+        "xw": 0.0,
+        "xx": 0.9112328886985779,
+        "xy": -0.4029545783996582,
+        "xz": 0.0853390097618103,
+        "yw": 0.0,
+        "yx": 0.40773043036460876,
+        "yy": 0.8530732989311218,
+        "yz": -0.32561299204826355,
+        "zw": 0.0,
+        "zx": 0.05840674787759781,
+        "zy": 0.3315045237541199,
+        "zz": 0.9416444897651672
+      }
+    ],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.049999999999999996,
@@ -46,7 +104,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -57,9 +115,9 @@
         }
       ],
       "drc_exclusions": [
-        "lib_footprint_issues|44673032|46106403|6e3a76aa-250e-4b93-bb62-59776a8efb7d|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|74507143|73604043|fa325315-ec3e-4cf8-b454-4a1b23eb1b9d|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|48895473|73960740|eeb908d6-26bb-46a5-9892-6d8f96c2d04e|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_issues|73901047|73604043|fa325315-ec3e-4cf8-b454-4a1b23eb1b9d|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|51606000|68804000|eeb908d6-26bb-46a5-9892-6d8f96c2d04e|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|73900000|73600000|fa325315-ec3e-4cf8-b454-4a1b23eb1b9d|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -89,7 +147,7 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "warning",
@@ -97,8 +155,8 @@
         "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
